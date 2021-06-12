@@ -1,0 +1,42 @@
+1. Inicia seguimiento de proyecto
+git init
+
+2. Agregamos un solo proyecto al staging area
+git add <name_proyecto.py>
+
+3. Agregamos todos los archivos del directorio Git a staging area
+git add .
+
+4. Agregamos un documento al repositorio local de versiones
+git commir -m <"name_version">
+
+5. Agregamos todos los archivos de nuestro directorio de Git. En un solo paso 
+   hacemos el paso 2 y 4.
+git commit -am <"name_version">
+
+6. Consultamos los archivos del dicrectorio principal de inicio de Git
+git status -s
+
+7. Consultamos el listado de versiones guardado en repositorio local
+git log --oneline
+
+8. Restaurar una versión
+git reset --hard <code_version>
+
+9. Abrimos el editor Vim
+git commit --amend
+
+10. Agremos nuestro repositorio GitHub
+git remote add origin https://github.com/username/CursoGit.git
+
+11. Eliminamos nuestro repositorio GitHub
+git remote rm
+
+12. Consultamos el repositorio GitHub usado
+git remote -v
+
+13. Actualizamos los datos de nuestro repositorio GitHub
+git push -u origin main
+
+14. Guardar cambios de GitHub al repositorio local
+git pull
