@@ -8,6 +8,4 @@ for i in data:
     df.append(i/4)
 
 print(f"El df i/4 {df}")
-
-
-
+print(f"El df i/2 {df}")
