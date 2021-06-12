@@ -40,3 +40,12 @@ git push -u origin main
 
 14. Guardar cambios de GitHub al repositorio local
 git pull
+
+15. Creación de tag
+git tag <name_tag> -m <"Descripción de la versión">
+
+16. Subir tag a repositorio GitHub
+git push --tag
+
+17. Clonar repositorio GitHub en repositorio local Git
+git clone <url_HTTPS>
