@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 data = [1, 2, 3, 4, 5]
 df = []
 for i in data:
@@ -5,5 +8,6 @@ for i in data:
     df.append(i/4)
 
 print(f"El df i/4 {df}")
+
 
 
