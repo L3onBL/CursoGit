@@ -58,3 +58,6 @@ git branch
 
 20. Cambiar de branch
 git checkout <name_branch>
+
+21. Ejecutar un merge o fusión
+git merge <name_branch_paralela>
