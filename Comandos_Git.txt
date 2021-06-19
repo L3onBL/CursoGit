@@ -49,3 +49,12 @@ git push --tag
 
 17. Clonar repositorio GitHub en repositorio local Git
 git clone <url_HTTPS>
+
+18. Crear una branch de proyecto
+git branch <name_branch>
+
+19. Chequear las branches y en cual estoy trabajando
+git branch
+
+20. Cambiar de branch
+git checkout <name_branch>
