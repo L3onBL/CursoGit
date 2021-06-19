@@ -15,3 +15,11 @@ for i in g:
 
 print ("Code")
 
+df2 = []
+
+data = [1, 2, 3, 4, 5]
+df2 = []
+for i in data:
+    df2.append(i)
+
+print(f"El df2 i/2 {df2}")
