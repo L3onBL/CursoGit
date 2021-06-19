@@ -8,7 +8,7 @@ git add <name_proyecto.py>
 git add .
 
 4. Agregamos un documento al repositorio local de versiones
-git commir -m <"name_version">
+git commit -m <"name_version">
 
 5. Agregamos todos los archivos de nuestro directorio de Git. En un solo paso 
    hacemos el paso 2 y 4.
@@ -35,7 +35,7 @@ git remote rm
 12. Consultamos el repositorio GitHub usado
 git remote -v
 
-13. Actualizamos los datos de nuestro repositorio GitHub
+13. Conectamos y actualizamos los datos de nuestro repositorio GitHub
 git push -u origin main
 
 14. Guardar cambios de GitHub al repositorio local
